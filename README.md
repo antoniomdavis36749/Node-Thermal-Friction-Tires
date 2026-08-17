@@ -8,7 +8,8 @@ This repo ships **JBeam-only** selectable `*_Respin` tire clones. Meshes stay in
 
 - Street / vanilla-wheel gap-fill: **Sport Plus**, **Track Day**, **Hard C2**, **Medium C3**
 - Native Sport / Race / Standard are **not** replaced
-- Scintilla GT3 Respin slicks (Soft C4 + Hard/Medium/Soft SKUs)
+- Scintilla GT3 Respin slicks (Hard C2 / Medium C3 / Soft C4 / **Supersoft C5**)
+- Public Scintilla **GT3 ReSpin** configs (Endurance Hard/Medium/Soft, Qualify Supersoft)
 - Pigniteon ETKC Grip-All GT3 Respin tires
 
 ## Install
@@ -18,7 +19,7 @@ This repo ships **JBeam-only** selectable `*_Respin` tire clones. Meshes stay in
 3. For GT3 clones, also install the matching car mod for meshes:
    - [Scintilla GT3 Racing Parts](https://www.beamng.com/resources/scintilla-gt3-racing-parts.23027/)
    - Pigniteon ETK Racing
-4. Parts → tires → pick a name ending in **Respin**.
+4. Scintilla: pick a **GT3 ReSpin** config (Endurance Hard/Medium/Soft, or Qualify Supersoft), or Parts → tires → **Respin**.
 
 Street SKUs use vanilla `common.zip` meshes. GT3 SKUs use the car-mod meshes.
 

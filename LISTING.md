@@ -5,12 +5,12 @@ Companion resource for **Tire Wear and Thermals ReSpin**. Source: https://github
 | Field | Value |
 | --- | --- |
 | **Title** | Tire Wear and Thermals ReSpin — Compat Tires |
-| **Tagline** | Optional Respin-selectable tire JBeams (meshes stay in vanilla / companion car mods) |
+| **Tagline** | Optional Respin GT3 tire JBeams, street gap-fill SKUs, and extra Scintilla configs |
 | **Version** | 0.1.2 |
 | **Zip filename** | `TireWearThermalsReSpin_CompatTires.zip` |
 | **Prefix** | Alpha |
 | **Category** | Vehicles / Parts (confirm on upload form) |
-| **Requires** | Core ReSpin. Street SKUs use vanilla meshes. GT3 SKUs need Scintilla GT3 and/or Pigniteon ETK Racing. |
+| **Requires** | Core ReSpin. Street SKUs use vanilla meshes. GT3 SKUs / configs need Scintilla GT3 and/or Pigniteon ETK Racing. |
 
 ### Description (BBCode)
 
@@ -25,8 +25,8 @@ This is [B]not[/B] a standalone thermals mod — install [B]core ReSpin[/B] firs
 [B]Install[/B]
 1. Install / enable [B]Tire Wear and Thermals ReSpin[/B] (core — thermals + UI apps).
 2. Install / enable [B]this[/B] Compat Tires resource.
-3. GT3 clones: install the matching car mod for meshes (Scintilla GT3 Racing Parts and/or Pigniteon ETK Racing).
-4. Parts → tires → pick a name ending in [B]Respin[/B].
+3. GT3 clones / configs: install the matching car mod for meshes (Scintilla GT3 Racing Parts and/or Pigniteon ETK Racing).
+4. Scintilla: pick a [B]GT3 ReSpin[/B] config (Endurance Hard/Medium/Soft, or Qualify Supersoft). Other cars: Parts → tires → pick a name ending in [B]Respin[/B].
 
 [HR][/HR]
 [B]Why a separate Repo listing?[/B]
@@ -35,9 +35,11 @@ BeamNG mounts vehicle-classified packages at [I]vehicles/[/I] only. Compat tires
 [HR][/HR]
 [B]Includes[/B]
 • Street / vanilla-wheel gap-fill: Sport Plus, Track Day, Hard C2, Medium C3 (native Sport / Race / Standard not replaced)
-• Scintilla GT3 Respin tires (default Soft + Hard/Medium/Soft Slick SKUs)
+• Scintilla GT3 Respin tires (Hard C2 / Medium C3 / Soft C4 / Supersoft C5)
+• Scintilla extra configs: [B]GT3 ReSpin Endurance[/B] (Hard/Medium/Soft) and [B]Qualify Supersoft[/B] — race-ready tuning + compounds, stock public restrictor
 • Pigniteon ETKC Grip-All GT3 Respin tires
 • Stock-like friction / softness for ReSpin thermal windows — author tire files unchanged
+• Car credit: Scintilla GT3 Racing Parts by Exchy / Turbo49 / Cyborella (configs are extra content, not official pack files)
 
 [HR][/HR]
 [B]Legal[/B]
@@ -57,4 +59,4 @@ Gallery for this listing: `mod_info/TWTRS_COMPAT/images/listing_hero.jpg` (icon:
 
 - Street / vanilla-wheel gap-fill: Sport Plus, Track Day, Hard C2, Medium C3
 - Native Sport / Race / Standard not replaced; stagger-safe fronts and race-only rears
-- GT3 Scintilla Hard/Medium/Soft + Pigniteon ETKC clones unchanged from 0.1.1
+- Scintilla Supersoft C5 + public GT3 ReSpin Endurance / Qualify configs
