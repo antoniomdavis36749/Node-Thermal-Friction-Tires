@@ -1,0 +1,30 @@
+# Credits
+
+ReSpin Tires is the optional JBeam companion for Tire Wear and Thermals ReSpin.
+
+## Authors to credit
+
+- **lucky4luuk** — original mod author (released as open source; cite authorship)
+  Resource: https://www.beamng.com/resources/luuks-tyre-thermals-and-wear-mod.26947/
+
+- **Zesty_Maple98** — expanded and reworked the original into Tyre Wear and Thermals Redux
+  Resource: https://www.beamng.com/resources/tyre-wear-and-thermals-redux.29934/
+  Upstream source: https://github.com/ample-samples/tyre-thermals-and-wear
+  Permission received to publish this ReSpin derivative with credit.
+
+Core thermals / UI: https://github.com/antoniomdavis36749/Tire-Wear-and-Thermals-ReSpin
+
+License: GNU Affero General Public License v3 (`license`).
+
+## Optional compatibility tire companions
+
+This pack ships **JBeam-only** selectable clones (`*_Respin`). Those authors are **not** ReSpin contributors; credit them as optional companions. Do not redistribute their meshes, textures, or sounds. Details: `COMPAT_TIRES.md`.
+
+- **Scintilla GT3 Racing Parts** (Exchy / Turbo49 / Cyborella et al.) — https://www.beamng.com/resources/scintilla-gt3-racing-parts.23027/
+- **Pigniteon ETK Racing** — credit per that pack’s Repo listing
+
+## Listing imagery
+
+Repo heroes / gallery stills that show the **Civetta Scintilla GT3** are in-game photo-mode captures of that pack. **Courtesy permission** was obtained from the pack authors for ReSpin listing use. This pack does not redistribute their meshes, textures, or sounds.
+
+Pack: https://www.beamng.com/resources/scintilla-gt3-racing-parts.23027/
