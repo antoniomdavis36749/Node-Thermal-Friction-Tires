@@ -2,6 +2,9 @@
 
 Optional **ReSpin Tires** companion for [Tire Wear and Thermals ReSpin](https://github.com/antoniomdavis36749/Tire-Wear-and-Thermals-ReSpin).
 
+- **BeamNG Repo (this pack):** https://www.beamng.com/resources/tire-wear-and-thermals-respin-%E2%80%94-compat-tires.39083/
+- **BeamNG Repo (core, required):** https://www.beamng.com/resources/tire-wear-and-thermals-respin.39082/
+
 This repo ships **JBeam-only** selectable `*_Respin` tire clones. Meshes stay in vanilla BeamNG or in the companion car mods. It is **not** a standalone thermals mod — install **core ReSpin** first.
 
 ## Latest (0.1.2)
@@ -29,8 +32,8 @@ BeamNG mounts any package that contains `vehicles/` as a vehicle mod. If those J
 
 | Resource | GitHub | Zip |
 | --- | --- | --- |
-| Core ReSpin (thermals + UI) | [Tire-Wear-and-Thermals-ReSpin](https://github.com/antoniomdavis36749/Tire-Wear-and-Thermals-ReSpin) | `TireWearThermalsReSpin_*.zip` |
-| ReSpin Tires (this repo) | [Tire-Wear-and-Thermals-ReSpin-Tires](https://github.com/antoniomdavis36749/Tire-Wear-and-Thermals-ReSpin-Tires) | `TireWearThermalsReSpin_CompatTires.zip` |
+| Core ReSpin (thermals + UI) | [Tire-Wear-and-Thermals-ReSpin](https://github.com/antoniomdavis36749/Tire-Wear-and-Thermals-ReSpin) ([Repo 39082](https://www.beamng.com/resources/tire-wear-and-thermals-respin.39082/)) | `TireWearThermalsReSpin_*.zip` |
+| ReSpin Tires (this repo) | [Tire-Wear-and-Thermals-ReSpin-Tires](https://github.com/antoniomdavis36749/Tire-Wear-and-Thermals-ReSpin-Tires) ([Repo 39083](https://www.beamng.com/resources/tire-wear-and-thermals-respin-%E2%80%94-compat-tires.39083/)) | `TireWearThermalsReSpin_CompatTires.zip` |
 
 ```powershell
 .\tools\scripts\Pack-Release.ps1
