@@ -1,0 +1,13 @@
+{
+  "Configuration": "GT3 NTF - Baseline (Sequential)",
+  "Config Type": "Race",
+  "Author": "antoniomdavis36749 / Node-Thermal Friction",
+  "Value": 195000,
+  "Population": 0,
+  "Drivetrain": "RWD",
+  "Propulsion": "ICE",
+  "Fuel Type": "Gasoline",
+  "Transmission": "Sequential",
+  "Years": { "min": 2020, "max": 2022 },
+  "Description": "NTF mirror of Scintilla GT3 pack Baseline (gt3_balanced). Same role as factory GT3 - Baseline (Sequential). NTF Medium Slick (C3). Requires scintilla_gt3 + Node-Thermal Friction core + Compat Tires. Population 0."
+}

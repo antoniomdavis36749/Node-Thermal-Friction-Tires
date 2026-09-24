@@ -1,50 +1,58 @@
-# Tire Wear and Thermals ReSpin — Tires
+# Node-Thermal Friction — Compat Tires
 
-Optional **ReSpin Tires** companion for [Tire Wear and Thermals ReSpin](https://github.com/antoniomdavis36749/Tire-Wear-and-Thermals-ReSpin).
+Optional companion to **Node-Thermal Friction** (core). Ships `vehicles/` only — JBeam
+tire clones and a few Scintilla GT3 configs. Does **not** include thermals, HUDs, or ducts.
 
-- **BeamNG Repo (this pack):** https://www.beamng.com/resources/tire-wear-and-thermals-respin-%E2%80%94-compat-tires.39083/
-- **BeamNG Repo (core, required):** https://www.beamng.com/resources/tire-wear-and-thermals-respin.39082/
+| | |
+| --- | --- |
+| **Requires** | Core Node-Thermal Friction ([Repo 39082](https://www.beamng.com/resources/tire-wear-and-thermals-respin.39082/)) |
+| **This listing** | [Repo 39083](https://www.beamng.com/resources/tire-wear-and-thermals-respin-%E2%80%94-compat-tires.39083/) |
+| **Unpacked folder** | `Node-Thermal-Friction-Tires-dev` |
+| **Ray standard** | `numRays`: **16** (do not raise globally — modded cars break at 18–24) |
 
-This repo ships **JBeam-only** selectable `*_Respin` tire clones. Meshes stay in vanilla BeamNG or in the companion car mods. It is **not** a standalone thermals mod — install **core ReSpin** first.
+## Why a second mod?
 
-## Latest (0.1.2)
+BeamNG treats any zip that contains `vehicles/` as a vehicle mod and hides `ui/` / `lua/`.
+Core must stay thermals-only; Compat stays parts-only. Enable **both** when you want NTF
+selectable tires.
 
-- Street / vanilla-wheel gap-fill: **Sport Plus**, **Track Day**, **Hard C2**, **Medium C3**
-- Native Sport / Race / Standard are **not** replaced
-- Scintilla GT3 Respin slicks (Hard C2 / Medium C3 / Soft C4 / **Supersoft C5**)
-- Public Scintilla **GT3 ReSpin** configs (Endurance Hard/Medium/Soft, Qualify Supersoft)
-- Pigniteon ETKC Grip-All GT3 Respin tires
+## What’s inside
+
+See **`INVENTORY.md`**. Summary:
+
+- **Street size ladder** — `vehicles/common/tires_ntf_street/` (F/R pairs across common sizes)
+- **GT3 NTF slicks** — Hard / Medium / Soft / Supersoft (+ baseline) for Scintilla meshes
+- **Sunstorm NTF slicks** — Hard / Medium / Soft / Supersoft
+- **ETKC GT3 NTF** — F/R pair (smoke before advertising with Pigniteon ETK Racing)
+- **Scintilla configs** — `gt3_ntf_baseline.pc` + `gt3_ntf_endurance.pc` only (mirrors GT3 pack Baseline / Endurance; compound ladder lives in AMD Customs Collection)
+
+Meshes stay in the car packs (Scintilla GT3 Racing Parts, etc.). This zip only adds
+JBeam definitions that classify cleanly under NTF.
+
+## Are these tires special?
+
+**Mostly catalog + classify — not magic rubber (for now).**
+
+1. **Catalog (now):** NTF-named parts and configs so Soft / Med / Hard / Sport land in the shop.
+2. **Classify (now):** Tuned `tread` / `softness` / names so core maps them onto locked spectra. Stock tires still get full thermals/wear via classify.
+3. **Physics special (later):** One-off “special rubber” (e.g. high-climb configs with unique μ/life) — **not** the default pack. Tabled until after catalog coverage.
+
+Core alone is enough for any native tire. Compat is optional convenience + calibrated routing.
 
 ## Install
 
-1. Install [core ReSpin](https://github.com/antoniomdavis36749/Tire-Wear-and-Thermals-ReSpin) (thermals + UI apps).
-2. Install this companion (unpacked folder or `TireWearThermalsReSpin_CompatTires.zip`).
-3. For GT3 clones, also install the matching car mod for meshes:
-   - [Scintilla GT3 Racing Parts](https://www.beamng.com/resources/scintilla-gt3-racing-parts.23027/)
-   - Pigniteon ETK Racing
-4. Scintilla: pick a **GT3 ReSpin** config (Endurance Hard/Medium/Soft, or Qualify Supersoft), or Parts → tires → **Respin**.
+1. Enable **core** Node-Thermal Friction.
+2. Enable this Compat pack (zip or `-dev` unpack).
+3. Disable duplicate Repo copies of 39082/39083 if using `-dev`.
+4. Spawn car → Parts → tires → **NTF**, or load a **GT3 NTF** Scintilla config.
+5. Apps: Classic or Crew from **core** (Pitwall is `-dev` only).
 
-Street SKUs use vanilla `common.zip` meshes. GT3 SKUs use the car-mod meshes.
+## Pack
 
-## Why a second zip / repo
-
-BeamNG mounts any package that contains `vehicles/` as a vehicle mod. If those JBeams live inside the core ReSpin zip, `ui/` and `lua/` never mount and the apps disappear.
-
-| Resource | GitHub | Zip |
-| --- | --- | --- |
-| Core ReSpin (thermals + UI) | [Tire-Wear-and-Thermals-ReSpin](https://github.com/antoniomdavis36749/Tire-Wear-and-Thermals-ReSpin) ([Repo 39082](https://www.beamng.com/resources/tire-wear-and-thermals-respin.39082/)) | `TireWearThermalsReSpin_*.zip` |
-| ReSpin Tires (this repo) | [Tire-Wear-and-Thermals-ReSpin-Tires](https://github.com/antoniomdavis36749/Tire-Wear-and-Thermals-ReSpin-Tires) ([Repo 39083](https://www.beamng.com/resources/tire-wear-and-thermals-respin-%E2%80%94-compat-tires.39083/)) | `TireWearThermalsReSpin_CompatTires.zip` |
+From the core repo tools (points at the live tires unpack by default):
 
 ```powershell
-.\tools\scripts\Pack-Release.ps1
+.\tools\scripts\Pack-Compat-Release.ps1 -ZipName 'NodeThermalFriction_CompatTires.zip'
 ```
 
-Inventory and part names: **`COMPAT_TIRES.md`**. Listing copy-paste: **`LISTING.md`**.
-
-## Legal
-
-GNU Affero General Public License v3 — see `license`.
-
-Do **not** redistribute companion meshes, textures, or sounds. Upstream car/tire authors are optional companions, not ReSpin contributors. Scintilla listing stills are used with courtesy permission.
-
-Discussion: https://www.beamng.com/threads/tire-wear-and-thermals-respin-%E2%80%94-discussion-feedback-compat.111238/
+Or set `-TiresRoot` to your tires unpack / git root.
